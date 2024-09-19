@@ -1,0 +1,19 @@
+name: nextjs
+type: service
+from: node
+icon: node
+title: Next.js
+hostname: next
+scalable: true
+labels:
+- next
+
+build:
+  dockerfile: Dockerfile
+  connect: true
+  templates:
+  - name: nextjs
+    title: Next.js Boilerplate
+    repo: https://github.com/ixartz/Next-js-Boilerplate
+    tag: ^v3
+    pipeline: pipeline.yml
