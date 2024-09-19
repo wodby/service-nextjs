@@ -3,7 +3,6 @@ type: service
 from: node
 icon: node
 title: Next.js
-hostname: next
 scalable: true
 labels:
 - next
