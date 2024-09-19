@@ -1,7 +1,7 @@
 name: nextjs
 type: service
 from: node
-icon: node
+icon: nextjs
 title: Next.js
 scalable: true
 labels:
