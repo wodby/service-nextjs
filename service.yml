@@ -3,9 +3,8 @@ type: service
 from: node
 icon: nextjs
 title: Next.js
-scalable: true
 labels:
-- next
+- nextjs
 
 build:
   dockerfile: Dockerfile
