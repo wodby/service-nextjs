@@ -11,7 +11,6 @@ build:
   connect: true
   templates:
   - name: nextjs
-    title: Next.js Boilerplate
-    repo: https://github.com/ixartz/Next-js-Boilerplate
-    tag: ^v3
-    pipeline: pipeline.yml
+    title: T3 Boilerplate
+    repo: https://github.com/wodby/t3
+    branch: main
