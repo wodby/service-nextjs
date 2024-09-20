@@ -4,4 +4,6 @@ FROM ${WODBY_BASE_IMAGE}
 ARG COPY_FROM
 COPY --chown=wodby:wodby ${COPY_FROM} /usr/src/app
 
+RUN npm run build
+
 CMD ["npm", "run", "start"]
