@@ -17,12 +17,12 @@ jobs:
       - run: wget -qO- https://api.wodby.com/v1/get/cli | sh
       - run: wodby ci init $WODBY_BUILD_ID
 
-      - run: wodby ci run -s nextjs -- npm i
+      - run: wodby ci run -s nextjs npm install --global create-next-app@latest
+      - run: wodby ci run -s nextjs npx create-next-app@latest . --use-npm --typescript --eslint --app --no-src-dir --tailwind --import-alias "@/*"
+
       - cache_save:
           key: 'npm-{{ hash "package-lock.json" }}-v1'
           path: node_modules
-
-      - run: wodby ci run -s nextjs -- npm run build
 
       - run: wodby ci build nextjs
       - run: wodby ci release
