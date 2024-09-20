@@ -11,6 +11,6 @@ build:
   connect: true
   templates:
   - name: nextjs
-    title: T3 Boilerplate
-    repo: https://github.com/wodby/t3
+    title: Next.js Boilerplate
+    repo: https://github.com/wodby/next.js
     branch: main
