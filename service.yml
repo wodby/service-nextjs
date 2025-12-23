@@ -12,5 +12,5 @@ build:
   templates:
   - name: nextjs
     title: Next.js Boilerplate
-    repo: https://github.com/wodby/nextjs
+    repo: https://github.com/wodby/nextjs-boilerplate
     branch: main
