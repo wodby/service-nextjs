@@ -1,6 +1,7 @@
 name: nextjs
 type: service
 from: node
+fromVersion: "^1.0.0"
 icon: nextjs
 title: Next.js
 labels:
