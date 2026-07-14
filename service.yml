@@ -3,10 +3,11 @@ type: service
 from: node
 fromVersionConstraint: "^1.0.0"
 fromVersion: "1.0.1"
-icon: nextjs
-title: Next.js
+icon: node
+title: Node.js
 labels:
 - nextjs
+- node
 
 build:
   dockerfile: Dockerfile
