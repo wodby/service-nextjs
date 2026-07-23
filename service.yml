@@ -8,6 +8,11 @@ labels:
 - nextjs
 - node
 
+env:
+- name: NODE_ENV
+  value: production
+  envType: dev
+
 build:
   dockerfile: Dockerfile
   connect: true
