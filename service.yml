@@ -16,7 +16,7 @@ env:
 build:
   dockerfile: Dockerfile
   connect: true
-  templates:
+  boilerplates:
   - name: nextjs
     title: Next.js Boilerplate
     repo: https://github.com/wodby/nextjs-boilerplate

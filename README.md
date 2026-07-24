@@ -9,10 +9,10 @@ configuration for Node.js (Next.js).
 - [Wodby service documentation](https://wodby.com/docs/2.0/services/)
 - [Service manifest reference](https://wodby.com/docs/2.0/services/template/)
 
-## Start with a template
+## Start with a boilerplate
 
-Use one of the source templates exposed by this service to start with
-compatible build configuration and Wodby CI:
+Use one of the boilerplates exposed by this service to start with compatible
+build configuration and Wodby CI:
 
 - [Next.js Boilerplate](https://github.com/wodby/nextjs-boilerplate)
 
@@ -27,7 +27,7 @@ compatible build configuration and Wodby CI:
 | Service name | `nextjs` |
 | Type | Application service |
 | Inherits from | [`node`](https://github.com/wodby/service-node) with version constraint `^1.0.0` |
-| Application build | Git source connection enabled; Dockerfile: `Dockerfile`; starters: Next.js Boilerplate |
+| Application build | Git source connection enabled; Dockerfile: `Dockerfile`; boilerplates: Next.js Boilerplate |
 
 ## Use this service
 
