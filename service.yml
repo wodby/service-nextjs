@@ -2,7 +2,7 @@ name: nextjs
 type: service
 from: node
 fromVersionConstraint: "^1.0.0"
-fromVersion: "1.0.6"
+fromVersion: "1.0.7"
 title: Node.js (Next.js)
 labels:
 - nextjs
