@@ -26,7 +26,7 @@ build configuration and Wodby CI:
 | --- | --- |
 | Service name | `nextjs` |
 | Type | Application service |
-| Inherits from | [`node`](https://github.com/wodby/service-node) with version constraint `^1.0.0` |
+| Inherits from | [`node`](https://github.com/wodby/service-node) with version constraint `^2.0.0` |
 | Application build | Git source connection enabled; Dockerfile: `Dockerfile`; boilerplates: Next.js Boilerplate |
 
 ## Use this service
