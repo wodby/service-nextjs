@@ -9,6 +9,8 @@ labels:
 - node
 
 env:
+- name: WORKSPACE_NODE_COMMAND
+  value: workspace-node next-start
 - name: NODE_ENV
   value: production
   envType: dev
