@@ -1,8 +1,8 @@
 name: nextjs
 type: service
 from: node
-fromVersionConstraint: "^2.0.0"
-fromVersion: "2.0.1"
+fromVersionConstraint: "^2.1.0"
+fromVersion: "2.1.0"
 title: Node.js (Next.js)
 labels:
 - nextjs
@@ -21,3 +21,6 @@ build:
     title: Next.js Boilerplate
     repo: https://github.com/wodby/nextjs-boilerplate
     branch: main
+
+workspace:
+  reload: watch
