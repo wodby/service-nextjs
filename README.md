@@ -56,3 +56,12 @@ wodby service validate-manifest service.yml --org <org-id>
 ```
 
 See the [service manifest reference](https://wodby.com/docs/2.0/services/template/) and the [managed services index](https://github.com/wodby/services).
+
+## Workspace startup
+
+Workspaces use `workspace-node next-start`: the installed Next.js CLI runs with
+Webpack and polling on shared storage. Next 16+ receives `--webpack`; earlier
+versions use their default Webpack path. This command does not run custom `dev`,
+`predev` or `postdev` scripts. Override `WORKSPACE_NODE_COMMAND` when those scripts
+are required, and configure that command's watcher for shared storage. Standard
+build/start behavior is unchanged. Requires a Node image with workspace contract 1.
