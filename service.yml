@@ -26,3 +26,5 @@ build:
 
 workspace:
   reload: watch
+  # The development server's build output and generated type declarations.
+  ignore: ['/.next/', '/next-env.d.ts']
