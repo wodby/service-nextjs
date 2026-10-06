@@ -3,6 +3,7 @@ type: service
 from: node
 fromVersionConstraint: "^2.0.0"
 fromVersion: "2.0.1"
+guidance: GUIDANCE.md
 title: Node.js (Next.js)
 labels:
 - nextjs
